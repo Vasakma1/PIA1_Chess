@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1701127756 source:c:\users\toshiba\documents\škola\pia i\uloha\var 1\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1700523358 c:\users\toshiba\documents\škola\pia i\uloha\var 1\sachy\sachovnice.h
+	<windows.h>
+
+1701127408 source:c:\users\toshiba\documents\škola\pia i\uloha\var 1\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1701125438 c:\users\toshiba\documents\škola\pia i\uloha\var 1\sachy\tahy.h
+
+1701125473 source:c:\users\toshiba\documents\škola\pia i\uloha\var 1\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
