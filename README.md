@@ -2,6 +2,7 @@
 Verze 1.0
 Hra funguje prozatim jako simulator ruznych tahu, ukonceni je akrualne nastaveno na 20 tahu.
 Stridaji se bile a cerne figurky. Omezeni tahu : Pesec jen o 1 pole vpred, zatim nefunguje brani mimochodem ani rosady.
+Tahy konem zatim nejsou k dispozici.
 Cast odkomentovanych poli slouzi jako pomocne vypisy a budou ve finalni verzi odsstraneny
 
 
