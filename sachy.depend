@@ -407,3 +407,24 @@
 	<iostream>
 	<string>
 
+1702350253 source:c:\users\toshiba\documents\škola\pia i\uloha\21\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1702291496 c:\users\toshiba\documents\škola\pia i\uloha\21\sachy\sachovnice.h
+	<windows.h>
+
+1702347990 c:\users\toshiba\documents\škola\pia i\uloha\21\sachy\tahy.h
+
+1702350173 source:c:\users\toshiba\documents\škola\pia i\uloha\21\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1702352908 source:c:\users\toshiba\documents\škola\pia i\uloha\21\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+

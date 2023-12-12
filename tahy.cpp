@@ -51,6 +51,8 @@ int A2[100];
 int B1[100];
 int B2[100];
 char NR;
+char F1;
+char F2;
 for (int i=8;i>0;i--) {
                for (int j=1;j<9;j++) {
 
@@ -579,6 +581,82 @@ while (PT==false&&KH[0]==0)
         deska(P,M);
     break;
     }
+    if (H==1)
+    {
+        for (j=1;j<9;j++)
+        {
+            if (P[8][j]=='p') {
+                std::cout<<"Jakou figurku si p5ejete zvolit (dama - Q, kun - H, strelec - B, vez - R "<<std::endl;
+                std::cin>>F1;
+                while(F1!='Q'&&F1!='H'&&F1!='B'&&F1!='R')
+                {
+                     std::cout<<"Spatne zadano! (Zadejte Q H B R )"<<std::endl;
+                    std::cin>>F1;
+                }
+                if (F1=='Q')
+                    {
+                        P[8][j]='Q';
+                    }
+                else if (F1=='B')
+                    {
+                        P[8][j]='B';
+                    }
+
+                 else if (F1=='H')
+                    {
+                        P[8][j]='H';
+                    }
+
+                else if (F1=='R')
+                    {
+                        P[8][j]='R';
+                    }
+            }
+        }
+    }
+
+    if (H==2)
+    {
+        for (j=1;j<9;j++)
+        {
+            if (P[1][j]=='p') {
+                std::cout<<"Jakou figurku si prejete zvolit (dama - Q, kun - H, strelec - B, vez - R "<<std::endl;
+                std::cin>>F2;
+                while(F2!='Q'&&F2!='H'&&F2!='B'&&F2!='R')
+                {
+                     std::cout<<"Spatne zadano! (Zadejte Q H B R )"<<std::endl;
+                    std::cin>>F2;
+                }
+                if (F2=='Q')
+                    {
+                        P[1][j]='Q';
+                    }
+                else if (F2=='B')
+                    {
+                        P[1][j]='B';
+                    }
+
+                 else if (F2=='H')
+                    {
+                        P[1][j]='H';
+                    }
+
+                else if (F2=='R')
+                    {
+                        P[1][j]='R';
+                    }
+            }
+        }
+    }
+
+kontrola_sachu(P,M,T1,T2,TK1,TK2,k,l,ik1,jk1,ik2,jk2,H,T,SACH,NT,POCPT,POCPTK,ZT,PP,MP,KT,ZS);
+    if ( NT[0]==1) {
+        deska(P,M);
+    break;
+    }
+
+
+
    // std::cout<<"T2"<<std::endl;
     for ( i=8;i>0;i--) { //Ulozeni puvodnich pozic pro pripad neplatneo tahu
                 for (j=1;j<9;j++) {
@@ -683,7 +761,7 @@ char tahp1 (char P[10][10], char PP[10][10],int M[10][10],int MP[10][10], int T1
                     if(M[i+1][j+1]==2&&i<8&&j<8) {
                         T1[i+1][j+1]=1;
                                         }
-                     if(M[i+2][j]==0&&i==2)         //tah o 2 pole dopredu
+                     if(M[i+2][j]==0&&M[i+1][j]==0&&i==2)         //tah o 2 pole dopredu
                         {
                           T1[i+2][j]=1;
                         }
@@ -752,7 +830,7 @@ char tahp1 (char P[10][10], char PP[10][10],int M[10][10],int MP[10][10], int T1
              if(M[i-1][j+1]==1&&i>1&&j<8) {
                 T2[i-1][j+1]=2;
                                 }
-                if(M[i-2][j]==0&&i==7)  //tah o 2 pole dolu
+                if(M[i-2][j]==0&&M[i-1][j]==0&&i==7)  //tah o 2 pole dolu
                 {
 
 
@@ -796,7 +874,7 @@ char tahp2 (char P[10][10], char PP[10][10], int M[10][10],int MP[10][10], int T
                 T2[i-1][j+1]=2;
                                 }
 
-             if(M[i-2][j]==0&&i==7)  //tah o 2 pole dolu
+             if(M[i-2][j]==0&&M[i-1][j]==0&&i==7)  //tah o 2 pole dolu
                 {
 
 
@@ -850,7 +928,7 @@ char tahp2 (char P[10][10], char PP[10][10], int M[10][10],int MP[10][10], int T
                            T1[i+1][j+1]=1;
                                         }
 
-                        if(M[i+2][j]==0&&i==2)         //tah o 2 pole dopredu
+                        if(M[i+2][j]==0&&M[i+1][j]==0&&i==2)         //tah o 2 pole dopredu
                         {
                           T1[i+2][j]=1;
                         }
