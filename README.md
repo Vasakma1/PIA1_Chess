@@ -1,7 +1,7 @@
 # PIA1_Chess
 Verze 2.0 
 
-Hra funguje pro oba hráče pro libovolný počet tahů. Ukončení podle Matu může fungovat ale nemusí :) , je potřeba odladit. Hra obsahuje všechny figurky a všechny možné tahy s vyjímkou braní pěšce mimocodem a rošád věží.  Zatím chybí i změna pěšců na jin= figurky při průchodu šachovnicí.
+Hra funguje pro oba hráče pro libovolný počet tahů. Ukončení podle Matu může fungovat ale nemusí :) , je potřeba odladit. Hra obsahuje všechny figurky a všechny možné tahy s vyjímkou braní pěšce mimochodem a rošád věží. . Aktualne nefunguje hrani pescem o 2 pole pro cerneho hrace.
 
 
 Pro zadani poloh volte pocatecni a koncouvou např. a2 b3 c8 d2
