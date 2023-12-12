@@ -44,7 +44,10 @@ bool NT=false;
 //      deska(P,M);
 //     Pozice(P,M,T1,T2);
      TTL=0;
-            std::cout<< TTL <<std::endl;
+            //std::cout<< TTL <<std::endl;
+
+            HANDLE h=GetStdHandle(STD_OUTPUT_HANDLE);
+
     while (KH[0]==0)
         {
             //Hraci cyklus...prozatim an pocet tahu...bude upraveno na remizu pripadne sach mat
@@ -61,12 +64,14 @@ bool NT=false;
        if (MAT[2]==2) {std::cout<<"Vitezi cerny hrac, gratulujeme :) "<<std::endl;}
     //cout << "Hello world!" << endl;
 
-//HANDLE h=GetStdHandle(STD_OUTPUT_HANDLE);
-//while (mm<256) {
-  //  SetConsoleTextAttribute(h,mm);
-  //  cout << mm<<" Hello world!" << endl;
-  //  mm=mm+1;
+
  //pomocny skript pro urceni vhodne barvy poli i figurek
+
+// while (mm<256) {
+   //SetConsoleTextAttribute(h,mm);
+   // cout << mm<<" Hello world!" << endl;
+   // mm=mm+1;
+//}
 
 //}
 

@@ -67,7 +67,7 @@ while (PT==false&&KH[0]==0)
      NT[0]=0;
     while(PT==false){
 
-
+    std::cout<<std::endl;
     if (H==1) {std::cout<<"Hraje bily"<<std::endl;  }
     else {std::cout<<"Hraje cerny"<<std::endl;  }
 
@@ -579,43 +579,43 @@ while (PT==false&&KH[0]==0)
         deska(P,M);
     break;
     }
-    std::cout<<"T2"<<std::endl;
+   // std::cout<<"T2"<<std::endl;
     for ( i=8;i>0;i--) { //Ulozeni puvodnich pozic pro pripad neplatneo tahu
                 for (j=1;j<9;j++) {
-                        std::cout<<T2[i][j];
+                     //  std::cout<<T2[i][j];
                                     }
-                   std::cout<<std::endl;
+                  // std::cout<<std::endl;
                                 }
-     std::cout<<"TK2"<<std::endl;
+     //std::cout<<"TK2"<<std::endl;
     for ( i=8;i>0;i--) { //Ulozeni puvodnich pozic pro pripad neplatneo tahu
                 for (j=1;j<9;j++) {
-                        std::cout<<TK2[i][j];
+                      //  std::cout<<TK2[i][j];
                                     }
-                   std::cout<<std::endl;
+               //    std::cout<<std::endl;
                                 }
 
 
 
-                                 std::cout<<"T1"<<std::endl;
+                                // std::cout<<"T1"<<std::endl;
     for ( i=8;i>0;i--) { //Ulozeni puvodnich pozic pro pripad neplatneo tahu
                 for (j=1;j<9;j++) {
-                        std::cout<<T1[i][j];
+                     //   std::cout<<T1[i][j];
                                     }
-                   std::cout<<std::endl;
+                 //  std::cout<<std::endl;
                                 }
-     std::cout<<"TK1"<<std::endl;
+     //std::cout<<"TK1"<<std::endl;
     for ( i=8;i>0;i--) { //Ulozeni puvodnich pozic pro pripad neplatneo tahu
                 for (j=1;j<9;j++) {
-                        std::cout<<TK1[i][j];
+                       // std::cout<<TK1[i][j];
                                     }
-                   std::cout<<std::endl;
+                 //  std::cout<<std::endl;
     }
-                    std::cout<<"M"<<std::endl;
+                   // std::cout<<"M"<<std::endl;
     for ( i=8;i>0;i--) { //Ulozeni puvodnich pozic pro pripad neplatneo tahu
                 for (j=1;j<9;j++) {
-                        std::cout<<M[i][j];
+                       // std::cout<<M[i][j];
                                     }
-                   std::cout<<std::endl;
+                 //  std::cout<<std::endl;
                                 }
     PT=true;
 
@@ -1140,7 +1140,7 @@ char tahk (char P[10][10], char PP[10][10],int M[10][10],int MP[10][10], int T1[
             i=k;
           j=l;
         }
-    std::cout<<"i = "<<i<<"j="<<j<<std::endl;
+  //  std::cout<<"i = "<<i<<"j="<<j<<std::endl;
    if(i>0&&i<9&&j>0&&j<9&&M[i][j]==1)
    {
    if (M[i+1][j]!=1&&T2[i+1][j]==0&&i<8)        //tahy nahoru

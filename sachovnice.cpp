@@ -199,12 +199,12 @@ for (int i=9;i>=0;i--)
             else if(M[i][j]==2&&i!=0&&i!=9&&j!=0&&j!=9)
                 {
                    if (B%2==0){
-                             SetConsoleTextAttribute(h,112);
+                             SetConsoleTextAttribute(h,121);
 
                                 }
                    else
                             {
-                                SetConsoleTextAttribute(h,128);
+                                SetConsoleTextAttribute(h,137);
                             }
 
             }
