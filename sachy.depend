@@ -7,16 +7,523 @@
 1700523358 c:\users\toshiba\documents\škola\pia i\uloha\var 1\sachy\sachovnice.h
 	<windows.h>
 
-1701127408 source:c:\users\toshiba\documents\škola\pia i\uloha\var 1\sachy\tahy.cpp
+1701159489 source:c:\users\toshiba\documents\škola\pia i\uloha\var 1\sachy\tahy.cpp
 	"tahy.h"
 	"sachovnice.h"
 	<iostream>
 	<string>
 
-1701125438 c:\users\toshiba\documents\škola\pia i\uloha\var 1\sachy\tahy.h
+1701165103 c:\users\toshiba\documents\škola\pia i\uloha\var 1\sachy\tahy.h
 
-1701125473 source:c:\users\toshiba\documents\škola\pia i\uloha\var 1\sachy\main.cpp
+1701159553 source:c:\users\toshiba\documents\škola\pia i\uloha\var 1\sachy\main.cpp
 	<iostream>
 	"sachovnice.h"
 	"tahy.h"
+
+1701742257 source:c:\users\toshiba\documents\škola\pia i\uloha\2\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1701730202 c:\users\toshiba\documents\škola\pia i\uloha\2\sachy\sachovnice.h
+	<windows.h>
+
+1701742156 c:\users\toshiba\documents\škola\pia i\uloha\2\sachy\tahy.h
+
+1701741376 source:c:\users\toshiba\documents\škola\pia i\uloha\2\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1701742282 source:c:\users\toshiba\documents\škola\pia i\uloha\2\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1701815439 source:c:\users\toshiba\documents\škola\pia i\uloha\3\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1701730202 c:\users\toshiba\documents\škola\pia i\uloha\3\sachy\sachovnice.h
+	<windows.h>
+
+1701873894 c:\users\toshiba\documents\škola\pia i\uloha\3\sachy\tahy.h
+
+1701875723 source:c:\users\toshiba\documents\škola\pia i\uloha\3\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1701875904 source:c:\users\toshiba\documents\škola\pia i\uloha\3\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1701815439 source:c:\users\toshiba\documents\škola\pia i\uloha\5\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1701730202 c:\users\toshiba\documents\škola\pia i\uloha\5\sachy\sachovnice.h
+	<windows.h>
+
+1701980607 c:\users\toshiba\documents\škola\pia i\uloha\5\sachy\tahy.h
+
+1701875723 source:c:\users\toshiba\documents\škola\pia i\uloha\5\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1701987610 source:c:\users\toshiba\documents\škola\pia i\uloha\5\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1701993179 source:c:\users\toshiba\documents\škola\pia i\uloha\6\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1701730202 c:\users\toshiba\documents\škola\pia i\uloha\6\sachy\sachovnice.h
+	<windows.h>
+
+1701993126 c:\users\toshiba\documents\škola\pia i\uloha\6\sachy\tahy.h
+
+1701875723 source:c:\users\toshiba\documents\škola\pia i\uloha\6\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1701990965 source:c:\users\toshiba\documents\škola\pia i\uloha\6\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1702079042 source:c:\users\toshiba\documents\škola\pia i\uloha\7\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1701730202 c:\users\toshiba\documents\škola\pia i\uloha\7\sachy\sachovnice.h
+	<windows.h>
+
+1702083494 c:\users\toshiba\documents\škola\pia i\uloha\7\sachy\tahy.h
+
+1702083831 source:c:\users\toshiba\documents\škola\pia i\uloha\7\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1702073431 source:c:\users\toshiba\documents\škola\pia i\uloha\7\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1702144101 source:c:\users\toshiba\documents\škola\pia i\uloha\8\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1701730202 c:\users\toshiba\documents\škola\pia i\uloha\8\sachy\sachovnice.h
+	<windows.h>
+
+1702143706 c:\users\toshiba\documents\škola\pia i\uloha\8\sachy\tahy.h
+
+1702073431 source:c:\users\toshiba\documents\škola\pia i\uloha\8\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1702143902 source:c:\users\toshiba\documents\škola\pia i\uloha\8\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1702161552 source:c:\users\toshiba\documents\škola\pia i\uloha\9\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1702161847 c:\users\toshiba\documents\škola\pia i\uloha\9\sachy\sachovnice.h
+	<windows.h>
+
+1702161909 c:\users\toshiba\documents\škola\pia i\uloha\9\sachy\tahy.h
+
+1702162047 source:c:\users\toshiba\documents\škola\pia i\uloha\9\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1702161776 source:c:\users\toshiba\documents\škola\pia i\uloha\9\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1702162047 source:c:\users\toshiba\documents\škola\pia i\uloha\10\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1702161847 c:\users\toshiba\documents\škola\pia i\uloha\10\sachy\sachovnice.h
+	<windows.h>
+
+1702167715 c:\users\toshiba\documents\škola\pia i\uloha\10\sachy\tahy.h
+
+1702163529 source:c:\users\toshiba\documents\škola\pia i\uloha\10\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1702163505 source:c:\users\toshiba\documents\škola\pia i\uloha\10\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1702175792 source:c:\users\toshiba\documents\škola\pia i\uloha\11\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1702161847 c:\users\toshiba\documents\škola\pia i\uloha\11\sachy\sachovnice.h
+	<windows.h>
+
+1702176745 c:\users\toshiba\documents\škola\pia i\uloha\11\sachy\tahy.h
+
+1702162047 source:c:\users\toshiba\documents\škola\pia i\uloha\11\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1702176847 source:c:\users\toshiba\documents\škola\pia i\uloha\11\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1702239605 source:c:\users\toshiba\documents\škola\pia i\uloha\12\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1702239273 c:\users\toshiba\documents\škola\pia i\uloha\12\sachy\sachovnice.h
+	<windows.h>
+
+1702240033 c:\users\toshiba\documents\škola\pia i\uloha\12\sachy\tahy.h
+
+1702239273 source:c:\users\toshiba\documents\škola\pia i\uloha\12\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1702239022 source:c:\users\toshiba\documents\škola\pia i\uloha\12\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1702239605 source:c:\users\toshiba\documents\škola\pia i\uloha\13\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1702239273 c:\users\toshiba\documents\škola\pia i\uloha\13\sachy\sachovnice.h
+	<windows.h>
+
+1702254332 c:\users\toshiba\documents\škola\pia i\uloha\13\sachy\tahy.h
+
+1702239273 source:c:\users\toshiba\documents\škola\pia i\uloha\13\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1702239605 source:c:\users\toshiba\documents\škola\pia i\uloha\14 gh\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1702239273 c:\users\toshiba\documents\škola\pia i\uloha\14 gh\sachy\sachovnice.h
+	<windows.h>
+
+1702256495 c:\users\toshiba\documents\škola\pia i\uloha\14 gh\sachy\tahy.h
+
+1702257637 source:c:\users\toshiba\documents\škola\pia i\uloha\14 gh\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1702257558 source:c:\users\toshiba\documents\škola\pia i\uloha\14 gh\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1702291496 source:c:\users\toshiba\documents\škola\pia i\uloha\15\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1702291496 c:\users\toshiba\documents\škola\pia i\uloha\15\sachy\sachovnice.h
+	<windows.h>
+
+1702289604 c:\users\toshiba\documents\škola\pia i\uloha\15\sachy\tahy.h
+
+1702291496 source:c:\users\toshiba\documents\škola\pia i\uloha\15\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1702290605 source:c:\users\toshiba\documents\škola\pia i\uloha\15\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1702291496 source:c:\users\toshiba\documents\škola\pia i\uloha\16\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1702291496 c:\users\toshiba\documents\škola\pia i\uloha\16\sachy\sachovnice.h
+	<windows.h>
+
+1702330770 c:\users\toshiba\documents\škola\pia i\uloha\16\sachy\tahy.h
+
+1702291496 source:c:\users\toshiba\documents\škola\pia i\uloha\16\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1702335012 source:c:\users\toshiba\documents\škola\pia i\uloha\17\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1702291496 c:\users\toshiba\documents\škola\pia i\uloha\17\sachy\sachovnice.h
+	<windows.h>
+
+1702335012 c:\users\toshiba\documents\škola\pia i\uloha\17\sachy\tahy.h
+
+1702291496 source:c:\users\toshiba\documents\škola\pia i\uloha\17\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1702335471 source:c:\users\toshiba\documents\škola\pia i\uloha\17\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1702337762 source:c:\users\toshiba\documents\škola\pia i\uloha\18\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1702291496 c:\users\toshiba\documents\škola\pia i\uloha\18\sachy\sachovnice.h
+	<windows.h>
+
+1702337534 c:\users\toshiba\documents\škola\pia i\uloha\18\sachy\tahy.h
+
+1702291496 source:c:\users\toshiba\documents\škola\pia i\uloha\18\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1702337578 source:c:\users\toshiba\documents\škola\pia i\uloha\18\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1702339066 source:c:\users\toshiba\documents\škola\pia i\uloha\19\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1702291496 c:\users\toshiba\documents\škola\pia i\uloha\19\sachy\sachovnice.h
+	<windows.h>
+
+1702342217 c:\users\toshiba\documents\škola\pia i\uloha\19\sachy\tahy.h
+
+1702342583 source:c:\users\toshiba\documents\škola\pia i\uloha\19\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1702342853 source:c:\users\toshiba\documents\škola\pia i\uloha\19\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1702347400 source:c:\users\toshiba\documents\škola\pia i\uloha\20\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1702291496 c:\users\toshiba\documents\škola\pia i\uloha\20\sachy\sachovnice.h
+	<windows.h>
+
+1702347990 c:\users\toshiba\documents\škola\pia i\uloha\20\sachy\tahy.h
+
+1702342583 source:c:\users\toshiba\documents\škola\pia i\uloha\20\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1702348646 source:c:\users\toshiba\documents\škola\pia i\uloha\20\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1702350253 source:c:\users\toshiba\documents\škola\pia i\uloha\20 gh\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1702291496 c:\users\toshiba\documents\škola\pia i\uloha\20 gh\sachy\sachovnice.h
+	<windows.h>
+
+1702347990 c:\users\toshiba\documents\škola\pia i\uloha\20 gh\sachy\tahy.h
+
+1702350173 source:c:\users\toshiba\documents\škola\pia i\uloha\20 gh\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1702349906 source:c:\users\toshiba\documents\škola\pia i\uloha\20 gh\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1702350253 source:c:\users\toshiba\documents\škola\pia i\uloha\21\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1702291496 c:\users\toshiba\documents\škola\pia i\uloha\21\sachy\sachovnice.h
+	<windows.h>
+
+1702347990 c:\users\toshiba\documents\škola\pia i\uloha\21\sachy\tahy.h
+
+1702350173 source:c:\users\toshiba\documents\škola\pia i\uloha\21\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1702352908 source:c:\users\toshiba\documents\škola\pia i\uloha\21\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1702350253 source:c:\users\toshiba\documents\škola\pia i\uloha\21 gh\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1702291496 c:\users\toshiba\documents\škola\pia i\uloha\21 gh\sachy\sachovnice.h
+	<windows.h>
+
+1702347990 c:\users\toshiba\documents\škola\pia i\uloha\21 gh\sachy\tahy.h
+
+1702373957 source:c:\users\toshiba\documents\škola\pia i\uloha\21 gh\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1702370613 source:c:\users\toshiba\documents\škola\pia i\uloha\21 gh\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1702350253 source:c:\users\toshiba\documents\škola\pia i\uloha\22\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1702291496 c:\users\toshiba\documents\škola\pia i\uloha\22\sachy\sachovnice.h
+	<windows.h>
+
+1702347990 c:\users\toshiba\documents\škola\pia i\uloha\22\sachy\tahy.h
+
+1702818725 source:c:\users\toshiba\documents\škola\pia i\uloha\22\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1702820811 source:c:\users\toshiba\documents\škola\pia i\uloha\22\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1702350253 source:c:\users\toshiba\documents\škola\pia i\uloha\23\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1702291496 c:\users\toshiba\documents\škola\pia i\uloha\23\sachy\sachovnice.h
+	<windows.h>
+
+1702347990 c:\users\toshiba\documents\škola\pia i\uloha\23\sachy\tahy.h
+
+1702818725 source:c:\users\toshiba\documents\škola\pia i\uloha\23\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1702350253 source:c:\users\toshiba\documents\škola\pia i\uloha\24\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1702291496 c:\users\toshiba\documents\škola\pia i\uloha\24\sachy\sachovnice.h
+	<windows.h>
+
+1702347990 c:\users\toshiba\documents\škola\pia i\uloha\24\sachy\tahy.h
+
+1702818725 source:c:\users\toshiba\documents\škola\pia i\uloha\24\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
+
+1706397910 source:c:\users\toshiba\documents\škola\pia i\uloha\24\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1706397910 source:c:\users\toshiba\documents\škola\pia i\uloha\25 gh\sachy\tahy.cpp
+	"tahy.h"
+	"sachovnice.h"
+	<iostream>
+	<string>
+
+1702347990 c:\users\toshiba\documents\škola\pia i\uloha\25 gh\sachy\tahy.h
+
+1702291496 c:\users\toshiba\documents\škola\pia i\uloha\25 gh\sachy\sachovnice.h
+	<windows.h>
+
+1706401511 source:c:\users\toshiba\documents\škola\pia i\uloha\25 gh\sachy\main.cpp
+	<iostream>
+	"sachovnice.h"
+	"tahy.h"
+
+1706401511 source:c:\users\toshiba\documents\škola\pia i\uloha\25 gh\sachy\sachovnice.cpp
+	"sachovnice.h"
+	"tahy.h"
+	<iostream>
 

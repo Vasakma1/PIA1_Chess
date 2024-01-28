@@ -32,6 +32,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="figurky.cpp" />
+		<Unit filename="figurky.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="sachovnice.cpp" />
 		<Unit filename="sachovnice.h" />
