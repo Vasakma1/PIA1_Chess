@@ -159,13 +159,7 @@ while (PT==false&&KH[0]==0)
         }
 
     if (KH[0]==1) {break;}
-//std::cout<<"SACH1= "<<SACH[1]<<std::endl;
-//std::cout<<"SACH2= "<<SACH[2]<<std::endl;
-    //std::cout<<"Pocet PT 1 "<<POCPT[1]<<std::endl;
-    // std::cout<<"Pocet PT 2 "<<POCPT[2]<<std::endl;
 
-   // std::cout<<"Pocet PTK 1 "<<POCPTK[1]<<std::endl;
-   //  std::cout<<"Pocet PTK 2 "<<POCPTK[2]<<std::endl;
 
     POCPT[1]=0;
      POCPT[2]=0;
@@ -258,7 +252,7 @@ while (PT==false&&KH[0]==0)
 
 
 
-   // std::cout<<"PAT  "<<PAT[0]<<std::endl;
+
     if (KH[0]==1) {break;} //kontrola zda neni konec hry
     kv=Pozv[1];
     lv=Pozv[0];
@@ -332,7 +326,9 @@ while (PT==false&&KH[0]==0)
 
 
 
-   //rozdeleni nactenych pozic figurek pro jednotlive hrace
+
+
+   //rozdelen nactenych pozic figurek pro jednotlive hrace
     if (H==1) {
         iv1=iv;
         jv1=jv;
@@ -345,7 +341,6 @@ while (PT==false&&KH[0]==0)
         ic2=ic;
         jc2=jc;
         }
-
 
 
       //Ulozeni puvodnich pozic pro pripad neplatneho tahu
@@ -415,8 +410,16 @@ while (PT==false&&KH[0]==0)
             deska(P,M);
     break;
                     };
-    if (NT[0]==1)   //Pokud je neplatnz tah...navrat na zacatek czklu
+    if (NT[0]==1)
         {
+             for ( i=8;i>0;i--) {
+               for ( j=1;j<9;j++) {
+
+
+
+                                    }
+
+                    }
             break;
         }
   //Zde prochazim cele pole sachovnice kvuli zjisteni potencialnich "nebezpecnych" pozic pro krale
@@ -476,7 +479,6 @@ while (PT==false&&KH[0]==0)
          }
 
 
-
      // pri neplatnem tahu se vykresli sachovnice
    if ( NT[0]==1) {
         deska(P,M);
@@ -485,6 +487,7 @@ while (PT==false&&KH[0]==0)
 
     if ( NT[0]==1)
         {
+
             break;
         }
 
@@ -579,6 +582,17 @@ kontrola_sachu(P,M,T1,T2,TK1,TK2,k,l,ik1,jk1,ik2,jk2,H,T,SACH,NT,POCPT,POCPTK,ZT
     break;
     }
 
+
+
+
+
+
+
+
+
+
+
+
     PT=true;
 
 
@@ -591,13 +605,22 @@ for ( i=8;i>0;i--) {
         }
 
 
+//std::cout<<"Zkouska matice"<<std::endl;
+ for ( i=8;i>0;i--) {
+               for (int j=1;j<9;j++) {
+                //     std::cout<<OP[i][j][n];
+               }
+               //  std::cout<<std::endl;
+ }
+ n=n+1;
+ int m=n;
+ int ll=0;
 
-
- // kontrola na pocet opakovani pozice...rozpracovano
+ // kontrola na pocet opakovani pozice
  opak_pozice (OP,P,M,PO,n,pom2,pom3);
 
-        }
-    }
+}
+}
 
 return 0;
 
@@ -618,7 +641,7 @@ char tahp1 (char P[10][10], char PP[10][10],int M[10][10],int MP[10][10], int T1
             i=k;
           j=l;
         }
-      //  std::cout<<"i "<<i<<"j "<<j<<std::endl;
+
     // nasledujici if dava pro konkretni vychozi pozici volne tahy (Nejsou vsechny, budou doplneny)
     // Pole T1 udava pozice pro pohyb figurky
      if(i>0&&i<9&&j>0&&j<9&&H==1&&M[i][j]==1){ //Pokud je vyzchozi pozice na sachovnici a obsazena bilou figurkou
@@ -660,12 +683,19 @@ char tahp1 (char P[10][10], char PP[10][10],int M[10][10],int MP[10][10], int T1
                 else {
                     std::cout<<"Neplatny tah"<<std::endl;
                      NT[0]=1;
-                  //  std::cout<<"Neplatny NT "<<NT<<std::endl;
+
 
                     return 0;
 
+
+
+
+
+
                     }
                 }
+
+
 
            //Vsechny mozne tahy pro figurku cernou
            //Pole T2 ukazuje kam je mozne dostat se cernou figurkou
@@ -688,8 +718,8 @@ char tahp1 (char P[10][10], char PP[10][10],int M[10][10],int MP[10][10], int T1
                 }
 
 
-
 }
+
 
 return 0;
 }
@@ -710,7 +740,7 @@ char tahp2 (char P[10][10], char PP[10][10], int M[10][10],int MP[10][10], int T
             i=k;
            j=l;
         }
-
+    //std::cout<<
     if(i>0&&i<9&&j>0&&j<9&&H==2&&M[i][j]==2){   //Pokud je pozice na sachovnici a obsazena cernou figurkou
             if(M[i-1][j]==0&&i>1) {             // Pokud je cilova pozice volna
                 T2[i-1][j]=2;}                  //pohyb o pole dolu
@@ -748,7 +778,7 @@ char tahp2 (char P[10][10], char PP[10][10], int M[10][10],int MP[10][10], int T
 
 
 
-        //Vsechny mozne tahy pro figurku bilou
+        //Vsechny mozne tahy pro figurku bilou                             }
 
      if(i>0&&i<9&&j>0&&j<9&&M[i][j]==1){
                        if(M[i+1][j]==0&&i<8) {
@@ -765,7 +795,6 @@ char tahp2 (char P[10][10], char PP[10][10], int M[10][10],int MP[10][10], int T
                           T1[i+2][j]=1;
                         }
 
-
                     }
 
 }
@@ -776,7 +805,7 @@ int i;          //obecny index radku
     int j;      //obecny index sloupce
     int u;  // pomocny index radku
     int v;  // pomocny index sloupce
-
+  //  std::cout<<"T je "<<T<<std::endl;
     if (T==false) {
             if (H==1){
                     i=iv1;
@@ -1050,8 +1079,7 @@ char tahk (char P[10][10], char PP[10][10],int M[10][10],int MP[10][10], int T1[
             i=k;
           j=l;
         }
-  //  std::cout<<"i = "<<i<<"j="<<j<<std::endl;
-  //
+
 
     //T1 je pole pro mozne pozice tahu bilou figurkou
     //TK1 je pole pro mozny pohyb bileho krale
@@ -1187,7 +1215,7 @@ int i;
     int j;
     int u;
     int v;
-
+  //  std::cout<<"T je "<<T<<std::endl;
     if (T==false) {
             if (H==1){
                     i=iv1;
@@ -1202,7 +1230,7 @@ int i;
         }
     bool PT1;
     bool PT2;
-
+  //   std::cout<<"i "<<i<<"j "<<j<<std::endl;
     //bile figurky
     if(i>0&&i<9&&j>0&&j<9&&M[i][j]==1) //Pokud je vychozi pozice na sachovnici a obsazena bilou figurkou
         {
@@ -1376,7 +1404,7 @@ int i;
         }
     bool PT1;
     bool PT2;
-  //   std::cout<<"i "<<i<<"j "<<j<<std::endl;
+
     //bile figurky
     if(i>0&&i<9&&j>0&&j<9&&M[i][j]==1) //Pokud je vychozi pozice na sachovnici a obsazena bilou figurkou
         {
@@ -1588,7 +1616,7 @@ char tahh (char P[10][10], char PP[10][10],int M[10][10],int MP[10][10], int T1[
                 else {
                     std::cout<<"Neplatny tah"<<std::endl;
                      NT[0]=1;
-                  //  std::cout<<"Neplatny NT "<<NT<<std::endl;
+
 
 
                 }
@@ -1647,7 +1675,6 @@ char tahh (char P[10][10], char PP[10][10],int M[10][10],int MP[10][10], int T1[
                 else {
                     std::cout<<"Neplatny tah"<<std::endl;
                      NT[0]=1;
-                  //  std::cout<<"Neplatny NT "<<NT<<std::endl;
 
 
                 }
@@ -1789,7 +1816,7 @@ for ( i=8;i>0;i--) {
                       POCPTK[1]=0;
                        POCPT[2]=0;
                       POCPTK[2]=0;
-// vypocet poctu platnych tahu PT pro figurky a PTK pro krale
+// vypocet poctu platnych tahu POCPT pro figurky a POCPTTK pro krale
     if  (NT[0]!=1)
     {
         for ( i=8;i>0;i--) {
@@ -1818,6 +1845,11 @@ for ( i=8;i>0;i--) {
                }
         }
     }
+
+
+
+
+
 
 
 
@@ -1881,6 +1913,11 @@ if(H==1)
         }
 
 
+
+
+
+
+
      km=0;
 
       while (km<nm1)
@@ -1906,6 +1943,7 @@ if(H==1)
                       if(P[i][j]=='Q') {
                                 tahq(P,PP,M,MP,T1,T2,iv1,ic1,jv1,jc1,iv2,ic2,jv2,jc2,k,l,H,T,NT);
 
+
                                     }
                         if(P[i][j]=='H') {
                                 tahh(P,PP,M,MP,T1,T2,iv1,ic1,jv1,jc1,iv2,ic2,jv2,jc2,k,l,H,T,NT);
@@ -1920,6 +1958,7 @@ if(H==1)
                                                 }
                        if(P[i][j]=='K'){
                                     tahk (P,PP,M,MP,T1,T2,TK1,TK2,iv1,ic1,jv1,jc1,iv2,ic2,jv2,jc2,k,l,ik1,jk1,ik2,jk2,H,T,NT);
+
 
 
                         }
@@ -1968,6 +2007,7 @@ if(H==1)
 
                 if(P[i][j]=='K'){
                                     tahk (P,PP,M,MP,T1,T2,TK1,TK2,iv1,ic1,jv1,jc1,iv2,ic2,jv2,jc2,k,l,ik1,jk1,ik2,jk2,H,T,NT);
+
 
                         }
                     }
@@ -2044,6 +2084,7 @@ if (H==2)
                             if (H==1){
                                    tahp1(P,PP,M,MP,T1,T2,iv1,ic1,jv1,jc1,k,l,H,T,NT,iv2,MIMO1,MIMO2);
 
+
                                 }
                             else {
                                     tahp2(P,PP,M,MP,T2,T1,iv2,ic2,jv2,jc2,k,l,H,T,NT,iv1,MIMO1,MIMO2);
@@ -2053,6 +2094,7 @@ if (H==2)
                     }
                       if(P[i][j]=='Q') {
                                 tahq(P,PP,M,MP,T1,T2,iv1,ic1,jv1,jc1,iv2,ic2,jv2,jc2,k,l,H,T,NT);
+
 
                                     }
                         if(P[i][j]=='H') {
@@ -2081,6 +2123,7 @@ if (H==2)
 
                             if (H==1){
                                    tahp1(P,PP,M,MP,T1,T2,iv1,ic1,jv1,jc1,k,l,H,T,NT,iv2,MIMO1,MIMO2);
+
 
                                 }
                             else {

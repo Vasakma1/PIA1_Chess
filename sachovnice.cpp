@@ -94,6 +94,7 @@ char pocatek(char P[10][10],int M[10][10],int T1[10][10],int T2[10][10],int T11[
 
 
 
+
 char deska (char P[10][10], int M[10][10]) {
     //funkce deska vykresluje aktualni stav na sachovnici
     HANDLE h=GetStdHandle(STD_OUTPUT_HANDLE);       //inicializace grafickeho vystupu

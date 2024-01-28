@@ -41,6 +41,7 @@ bool NT=false;          // neplatny tah
     pocatek(P,M,T1,T2,T11,T22,ik1,ik2,jk1,jk2,POCPT,POCPTK,TK1,TK2);    // Puvodni pozice figurek
     deska(P,M);             //vykresleni figurek na sachovnici
 
+
             HANDLE h=GetStdHandle(STD_OUTPUT_HANDLE);   //indikace grafickeho rozhranni
 
     while (KH[0]==0)
@@ -50,16 +51,14 @@ bool NT=false;          // neplatny tah
             Pozice(P,PP,M,MP,T1,T2,T11,T22,TK1,TK2,ik1,ik2,jk1,jk2,H,OP,SACH,MAT,ZH,PAT,KH,MIMO1,MIMO2);    // Provedeni tahu
 
              deska(P,M);    //Vykresleni pozic figurek
-             //Pozice(P,M,T1,T2);
-         //   TTL=TTL+1;
+
             if(H==1) {H=2;} // Hraje druhy hrac
             else {H=1;}
-         //  std::cout<<"  pokus"<<std::endl;
+
         }
    if (PAT[0]==1) {std::cout<<"Hra konci remizou, gratulujeme :) "<<std::endl;}
      if (MAT[1]==1) {std::cout<<"Vitezi bily hrac, gratulujeme :) "<<std::endl;}
        if (MAT[2]==2) {std::cout<<"Vitezi cerny hrac, gratulujeme :) "<<std::endl;}
-    //cout << "Hello world!" << endl;
 
 
  //pomocny skript pro urceni vhodne barvy poli i figurek

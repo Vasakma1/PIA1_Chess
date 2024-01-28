@@ -506,23 +506,23 @@
 	<iostream>
 	<string>
 
-1706397910 source:c:\users\toshiba\documents\škola\pia i\uloha\25 gh\sachy\tahy.cpp
+1706453171 source:c:\users\toshiba\documents\škola\pia i\uloha\26\sachy\tahy.cpp
 	"tahy.h"
 	"sachovnice.h"
 	<iostream>
 	<string>
 
-1702347990 c:\users\toshiba\documents\škola\pia i\uloha\25 gh\sachy\tahy.h
+1702347990 c:\users\toshiba\documents\škola\pia i\uloha\26\sachy\tahy.h
 
-1702291496 c:\users\toshiba\documents\škola\pia i\uloha\25 gh\sachy\sachovnice.h
+1702291496 c:\users\toshiba\documents\škola\pia i\uloha\26\sachy\sachovnice.h
 	<windows.h>
 
-1706401511 source:c:\users\toshiba\documents\škola\pia i\uloha\25 gh\sachy\main.cpp
+1706401161 source:c:\users\toshiba\documents\škola\pia i\uloha\26\sachy\main.cpp
 	<iostream>
 	"sachovnice.h"
 	"tahy.h"
 
-1706401511 source:c:\users\toshiba\documents\škola\pia i\uloha\25 gh\sachy\sachovnice.cpp
+1706453286 source:c:\users\toshiba\documents\škola\pia i\uloha\26\sachy\sachovnice.cpp
 	"sachovnice.h"
 	"tahy.h"
 	<iostream>
